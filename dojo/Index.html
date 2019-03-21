@@ -20,7 +20,7 @@
                 <li><a href="Blog.html" target="_blank" class="navegacao__link">Blog</a></li>
                 <div class="navegacao__busca">
                     <li><img src="./img/search.png" class="busca__logo"></li>
-                    <li><input name="search" type="text" placeholder="search"></li>
+                    <li><input name="search" type="text" placeholder="search" class="busca__input"></li>
                 </div> 
             </ul>
         
@@ -35,58 +35,63 @@
         </nav>
 
         <main>
-        <header>
-            <div class="cabecalho">
-                <h1 class="cabecalho__titulo">Título em português e chamativo</h1>
-                <p class="cabecalho__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio minima velit, porro debitis amet ipsam tempore at rerum ab maiores eius neque eligendi repellat! Fuga minus ea eligendi consequatur a.</p>
-                <div class="cabecalho__botao">
-                    <button>Request a demo</button>
-                        <a href="Watch the Video" target="_blank">Watch the Video <img src="./img/play-button.png" alt="Watch the Video" title="Watch the Video"> </a>
+        <header class="cabecalho">
+            <div class="cabecalho__conteudo">
+                <div class="cabecalho__texto">
+                    <h1 class="cabecalho__titulo">Título em português e chamativo</h1>
+                    <p class="cabecalho__paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio minima velit, porro debitis amet ipsam tempore at rerum ab maiores eius neque eligendi repellat! Fuga minus ea eligendi consequatur a.</p>
                 </div>
-                <img src="img/header.png" alt="Video" title="Video">
-            </div>
-                 
+                <div class="cabecalho__botao">
+                    <button class="botao__botaorequest">Request a demo</button>
+                    <a class="botao__link" href="Watch the Video" target="_blank">Watch the Video<img src="./img/play-button.png" alt="Watch the Video" title="Watch the Video" class="link__imagem"></a>
+                </div> 
+            </div>   
+            <div class="cabecalho__video">
+                <a class="botao__link" href="Watch the Video" target="_blank"><img src="img/header.png" alt="Video" title="Video"></a>
+            </div>        
         </header>
         </main>
 
-        <section>
-            <h2>Faça parte de uma comunidade de 16.000 estudantes ao redor do mundo.</h2>
+        <section class="depoimentos">
+            <h2 class="depoimentos__chamada">Faça parte de uma comunidade de 16.000 estudantes ao redor do mundo.</h2>
             
-            <div>
-                <p>Universidade Lovelace</p>
-
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perferendis excepturi dignissimos, harum cumque quis omnis quisquam tempore cum, temporibus magni dolores? Praesentium cupiditate ratione vel in dolore! Mollitia, tenetur</p>
-
-                <p>Aluna Reprograma Engenheira da Nasa</p>
-            </div>
-
-            <div>
-                 <p>Universidade Lovelace</p>
+            <div class="depoimentos__conteudo">
+                <div class="conteudo__coluna1">
+                    <p class="conteudo__titulo">Universidade Lovelace</p>
     
-                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perferendis excepturi dignissimos, harum cumque quis omnis quisquam tempore cum, temporibus magni dolores? Praesentium cupiditate ratione vel in dolore! Mollitia, tenetur</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perferendis excepturi dignissimos, harum cumque quis omnis quisquam tempore cum, temporibus magni dolores? Praesentium cupiditate ratione vel in dolore! Mollitia, tenetur</p>
     
-                 <p>Aluna Reprograma Engenheira da Nasa</p>
-             </div>
-
-             <div>
-                <p>Universidade Lovelace</p>
-
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perferendis excepturi dignissimos, harum cumque quis omnis quisquam tempore cum, temporibus magni dolores? Praesentium cupiditate ratione vel in dolore! Mollitia, tenetur</p>
-
-                <p>Aluna Reprograma Engenheira da Nasa</p>
-            </div>
-
-            <div>
-                <p>Universidade Lovelace</p>
-
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perferendis excepturi dignissimos, harum cumque quis omnis quisquam tempore cum, temporibus magni dolores? Praesentium cupiditate ratione vel in dolore! Mollitia, tenetur</p>
-
-                <p>Aluna Reprograma Engenheira da Nasa</p>
-            </div>
+                    <p class="conteudo__creditos">Aluna Reprograma Engenheira da Nasa</p>
+                </div>
+        
+                <div class="conteudo__coluna2">
+                    <p class="conteudo__titulo">Universidade Lovelace</p>
+    
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perferendis excepturi dignissimos, harum cumque quis omnis quisquam tempore cum, temporibus magni dolores? Praesentium cupiditate ratione vel in dolore! Mollitia, tenetur</p>
+    
+                    <p class="conteudo__creditos">Aluna Reprograma Engenheira da Nasa</p>
+                </div>
+    
+                <div class="conteudo__coluna3">
+                    <p class="conteudo__titulo">Universidade Lovelace</p>
+    
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perferendis excepturi dignissimos, harum cumque quis omnis quisquam tempore cum, temporibus magni dolores? Praesentium cupiditate ratione vel in dolore! Mollitia, tenetur</p>
+    
+                    <p class="conteudo__creditos">Aluna Reprograma Engenheira da Nasa</p>
+                </div>
+    
+                <div class="conteudo__coluna4">
+                    <p class="conteudo__titulo">Universidade Lovelace</p>
+    
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum perferendis excepturi dignissimos, harum cumque quis omnis quisquam tempore cum, temporibus magni dolores? Praesentium cupiditate ratione vel in dolore! Mollitia, tenetur</p>
+    
+                    <p class="conteudo__creditos">Aluna Reprograma Engenheira da Nasa</p>
+                </div>
+            </div>   
         </section>
 
-        <footer>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, rem?</p>
+        <footer class="rodape">
+            <p>Produzido por Ingrid Pitta</p>
         </footer>
     </body>
 </html>
