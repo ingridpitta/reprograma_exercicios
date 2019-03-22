@@ -1,0 +1,72 @@
+.body{
+    font-family: sans-serif;
+}
+
+.planos{
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    border-bottom:1px solid #CCC;
+}
+
+.cabecalho th{
+    font-size: 12px;
+    color: #ffff;
+    padding: 10px;
+
+}
+.planos__linha > th{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.planos__linha--botoes > th{
+    padding: 10px;
+}
+
+.autonomo{
+    background-color: #0078c1;
+    color:#ffff;
+}
+
+.pequenas-empresas{
+    background-color: #009E2C;
+    color:#ffff;
+}
+tr, th, td{
+    border-right: 1px solid #CCC;
+}
+
+tr td:first-child{
+    text-align: left;
+    border-left: 1px solid #ccc;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: #DFDFDF;
+}
+
+.botoes{
+    background-color: #FF5406;
+    color: #ffff;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 11px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+
+.botao__link{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+}
+
+tr td:nth-child(2){
+    color: #0078c1;
+}
+
+.check-verde{
+    color: #009E2C;
+}

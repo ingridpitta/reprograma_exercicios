@@ -1,0 +1,32 @@
+.body{
+    margin: 0;
+}
+
+.navegacao{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    width: 20%;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.navegacao__lista{
+   width: 50%;
+}
+
+.cabecalho{
+    background-image: url('../img/bg-banner.png');
+    background-position: center;
+    min-height: 80vh;
+    padding-top: 120px;  
+}
